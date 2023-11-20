@@ -65,7 +65,7 @@ class SmartHomeSystem:
 
 def main():
     # Get user input
-    devices_input = input("Enter devices (e.g., [{'id': 1, 'type': 'light', 'status': 'off'}, {'id': 2, 'type': 'thermostat', 'temperature': 70, 'status': 'off'}, {'id': 3, 'type': 'door', 'status': 'locked'}]): ")
+    devices_input = input("Enter devices (e.g., [{'id': 1, 'type': 'light', 'status': 'off'}]): ")
     commands_input = input("Enter commands (e.g., ['turnOn(1)', 'setSchedule(2, \"06:00\", \"Turn On\")', 'addTrigger(\"temperature\", \">\", 75, \"turnOff(1)\")']): ")
 
     # Parse user input
